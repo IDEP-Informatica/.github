@@ -2,43 +2,48 @@
 
 <p align="center">
   <a href="https://github.com/IDEP-Informatica/manifiesto"><img alt="Manifiesto v1.0" src="https://img.shields.io/badge/manifiesto-v1.0-00693E?style=for-the-badge&labelColor=013220"></a>
-  <a href="https://www.idepba.com.ar/idep-informatica/"><img alt="idepba.com.ar" src="https://img.shields.io/badge/web-idepba.com.ar-289548?style=for-the-badge&labelColor=013220"></a>
-  <a href="https://www.instagram.com/ideppba/"><img alt="Instagram @ideppba" src="https://img.shields.io/badge/instagram-@ideppba-1E6343?style=for-the-badge&logo=instagram&logoColor=white&labelColor=013220"></a>
+  <a href="https://idep.atepba.org.ar"><img alt="idep.atepba.org.ar" src="https://img.shields.io/badge/web-idep.atepba.org.ar-289548?style=for-the-badge&labelColor=013220"></a>
+  <a href="https://campus.idep.atepba.org.ar"><img alt="Campus virtual" src="https://img.shields.io/badge/campus-virtual-1E6343?style=for-the-badge&labelColor=013220"></a>
+  <a href="https://www.instagram.com/idep_informatica/"><img alt="Instagram @idep_informatica" src="https://img.shields.io/badge/instagram-@idep__informatica-00693E?style=for-the-badge&logo=instagram&logoColor=white&labelColor=013220"></a>
 </p>
 
-## Quiénes somos
+## Por qué escribimos esto
 
-**IDEP Informática** es el área estratégica del [Instituto de Estudios sobre Estado y Participación](https://www.idepba.com.ar/) (IDEP) de **ATE Provincia de Buenos Aires** dedicada a la formación en nuevas tecnologías, la soberanía tecnológica y el desarrollo de infraestructura propia.
+Somos trabajadoras y trabajadores informáticos del Estado. Administramos servidores, escribimos código, mantenemos redes, cuidamos bases de datos, damos soporte, diseñamos sistemas. Somos quienes hacemos funcionar la infraestructura digital sobre la que se apoya la vida pública de la Provincia de Buenos Aires.
 
-Somos trabajadoras y trabajadores informáticos del Estado. Administramos servidores, escribimos código, mantenemos redes, cuidamos bases de datos, damos soporte y diseñamos sistemas: hacemos funcionar la infraestructura digital sobre la que se apoya la vida pública de la provincia.
+A quien programa para el Estado, a la comunidad del software libre, a los hackers, a quienes creen en la capacidad tecnológica propia y a quienes se están formando les proponemos lo mismo: **pensar juntos qué tecnología queremos, para qué país, y organizarnos para construirla.**
 
-> **La tecnología no es neutral.** Frente a cualquier herramienta nos hacemos siempre las mismas tres preguntas: **¿quién la controla?, ¿con qué datos funciona?, ¿a quién beneficia?**
+> **La tecnología no es neutral.** Frente a cualquier herramienta hacemos siempre las mismas tres preguntas: **¿quién la controla? ¿con qué datos funciona? ¿a quién beneficia?**
 
-## Qué hacemos
+## Lo que construimos
 
-| Área | Qué hacemos |
-|---|---|
-| 🖥️ **Infraestructura propia** | Sostenemos el datacenter y el campus virtual del IDEP. |
-| 🎓 **Formación** | Junto al CFL 410, trayectos con certificación oficial en redes, programación, bases de datos, servidores Linux, contenedores y fibra óptica. |
-| 🐧 **Software libre** | Formación y uso de software libre: conocimiento que se puede auditar, adaptar, compartir y mejorar. |
-| 🔐 **Ciberseguridad y ética hacker** | Formación en ciberseguridad, participación en la Ekoparty y en foros y comunidades de práctica. |
+Los trabajadores organizados podemos construir y sostener infraestructura y conocimiento tecnológico con recursos propios. Acá vamos dejando registro de lo que hacemos.
 
-## Qué vas a encontrar acá
+| | Proyecto | Qué es |
+|---|---|---|
+| 📜 | **[Manifiesto IDEP Informática](https://github.com/IDEP-Informatica/manifiesto)** | Qué tecnología queremos y para qué país. |
+| 🎓 | **[Campus virtual](https://campus.idep.atepba.org.ar)** | Nuestro campus propio para la formación a distancia, porque la formación es un derecho colectivo. |
+| 🕸️ | **[#enredATE '26](https://enredate26.idep.atepba.org.ar)** | Así fue el Enredate 26, el Encuentro de Informáticxs: CTF, juegos en red, desafíos y torneo de truco. |
+| 🏛️ | **[IDEP](https://idep.atepba.org.ar)** | Instituto de Estudios sobre Estado y Participación de ATE Provincia de Buenos Aires. |
 
-- 📜 **[Manifiesto](https://github.com/IDEP-Informatica/manifiesto)**: qué tecnología queremos y para qué país.
-- 📚 Material de formación abierto, a medida que lo vayamos publicando.
-- 🛠️ Herramientas y documentación que usamos en nuestro trabajo.
+## Lo que queremos
 
-Publicamos material terminado y revisado. El código va bajo licencias libres y el material didáctico bajo **CC BY-SA**.
+- 🖥️ **[Un Estado con soberanía informática](https://github.com/IDEP-Informatica/manifiesto#un-estado-con-soberanía-informática)**: servidores, redes, nube y datos bajo jurisdicción argentina, administrados por trabajadores públicos y auditables por la sociedad.
+- 🐧 **[Software libre como política pública](https://github.com/IDEP-Informatica/manifiesto#software-libre-como-política-pública)**: conocimiento que queda en el Estado en lugar de pagarse como licencia eterna.
+- 📈 **[Una carrera para el trabajo informático estatal](https://github.com/IDEP-Informatica/manifiesto#una-carrera-para-el-trabajo-informático-estatal)**: reconocimiento en los escalafones, pases a planta y cierre de la brecha de género.
+- 🎓 **[Formación en manos de los trabajadores](https://github.com/IDEP-Informatica/manifiesto#formación-en-manos-de-los-trabajadores)**: nos formamos, ese saber se reconoce y deja más capacidad instalada en el Estado.
+- 🤖 **[Inteligencia artificial con los trabajadores adentro](https://github.com/IDEP-Informatica/manifiesto#inteligencia-artificial-con-los-trabajadores-adentro)**: supervisión humana, transparencia y nunca como excusa de ajuste.
+- ♻️ **[Tecnología que dura](https://github.com/IDEP-Informatica/manifiesto#tecnología-que-dura)**: reparar antes que descartar.
+- 🇦🇷 **[Una industria informática nacional](https://github.com/IDEP-Informatica/manifiesto#una-industria-informática-nacional)**: que cada peso que el Estado invierte en tecnología fortalezca capacidad argentina.
 
-## Sumate
+## El llamado
 
 - 💼 **Si trabajás en sistemas en el Estado**, bajo cualquier figura contractual, organizate con nosotros. Si hacés trabajo informático para lo público, este espacio es tuyo.
-- 🐧 **Si venís del software libre o del mundo hacker**, acá esa cultura se encuentra con la organización colectiva.
-- 📖 **Si te estás formando**, acercate: hay cursos gratuitos con certificación oficial.
+- 🐧 **Si venís de la comunidad del software libre o del mundo hacker**, acá hay un lugar donde esa cultura se encuentra con la organización colectiva.
+- 📖 **Si te estás formando**, acercate. Hay cursos gratuitos con certificación oficial y una comunidad que entiende la formación como derecho.
 - 🇦🇷 **Si creés en un proyecto de desarrollo nacional**, sumá tu mirada.
 
-📬 **Contacto:** [idep@atepba.org.ar](mailto:idep@atepba.org.ar) · Calle 7 N° 1429, La Plata, Buenos Aires
+📬 [idep@atepba.org.ar](mailto:idep@atepba.org.ar)
 
 ---
 
@@ -60,5 +65,5 @@ Publicamos material terminado y revisado. El código va bajo licencias libres y 
 </p>
 
 <p align="center">
-  <sub><i>Los sistemas críticos no se sostienen solos: alguien los monitorea, los actualiza, los repara.<br>Con los derechos pasa exactamente igual.</i></sub>
+  <sub><i>Los sistemas críticos no se sostienen solos: alguien los monitorea, los actualiza, los repara. Con los derechos pasa exactamente igual.<br>El futuro digital del Estado se está escribiendo ahora. Queremos escribirlo nosotros.</i></sub>
 </p>

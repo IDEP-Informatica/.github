@@ -25,17 +25,20 @@ C = dict(
     dim="#A7C4B2", panel="#0B1F16", border="#1E6343", amber="#F7DD3F",
 )
 
+# Todo el texto sale del manifiesto (github.com/IDEP-Informatica/manifiesto)
 TERM = [
-    ("idep@informatica:~$", " cat preguntas.txt"),
-    ("1", "  ¿Quién la controla?"),
-    ("2", "  ¿Con qué datos funciona?"),
-    ("3", "  ¿A quién beneficia?"),
-    ("idep@informatica:~$", " echo $FUTURO"),
+    ("idep@informatica:~$", " ./manifiesto --lo-que-queremos"),
+    ("›", " Un Estado con soberanía informática"),
+    ("›", " Software libre como política pública"),
+    ("›", " Carrera para el trabajo informático"),
+    ("›", " IA con los trabajadores adentro"),
+    ("›", " Tecnología que dura, industria nacional"),
+    ("idep@informatica:~$", " ./manifiesto --llamado"),
     ("", "Queremos escribirlo nosotros."),
 ]
 FOOT_L = "IDEP · ATE Provincia de Buenos Aires · CTA Autónoma"
-FOOT_R = "Soberanía tecnológica · Software libre · Formación"
-TITLE_BAR = "idep@informatica: ~"
+FOOT_R = "La tecnología no es neutral."
+TITLE_BAR = "manifiesto — idep@informatica"
 
 GF = "https://fonts.gstatic.com/s/"
 FONTS = {
@@ -80,7 +83,7 @@ def main():
     lw, lh = lw // 2, lh // 2
 
     lines = []
-    ys = [66, 98, 124, 150, 196, 224]
+    ys = [62, 90, 112, 134, 156, 178, 210, 234]
     for i, ((a, b), y) in enumerate(zip(TERM, ys), start=1):
         if a.startswith("idep@"):
             user, path = a.split(":", 1)
@@ -90,7 +93,7 @@ def main():
             body = f'<tspan fill="{C["amber"]}">{a}</tspan><tspan fill="{C["white"]}">{b}</tspan>'
         else:
             body = f'<tspan fill="{C["neon"]}">{b}</tspan>'
-        lines.append(f'<text x="22" y="{y}" class="l" style="animation-delay:{0.4 + 0.8 * (i - 1):.1f}s">{body}</text>')
+        lines.append(f'<text x="22" y="{y}" class="l" style="animation-delay:{0.4 + 0.5 * (i - 1):.1f}s">{body}</text>')
 
     # pistas de circuito decorativas, en eco del logo
     traces = [
@@ -131,14 +134,14 @@ def main():
 </g>
 <image x="50" y="{(340 - lh) // 2 + 6}" width="{lw}" height="{lh}" href="data:image/webp;base64,{logo}"/>
 <g transform="translate(620 40)">
-  <rect width="530" height="282" rx="10" fill="{C["panel"]}" fill-opacity=".92" stroke="{C["border"]}"/>
+  <rect width="530" height="290" rx="10" fill="{C["panel"]}" fill-opacity=".92" stroke="{C["border"]}"/>
   <path d="M0 10a10 10 0 0 1 10-10h510a10 10 0 0 1 10 10v22H0z" fill="{C["border"]}" opacity=".6"/>
   <circle cx="20" cy="16" r="5.5" fill="#ff5f57"/><circle cx="38" cy="16" r="5.5" fill="#febc2e"/><circle cx="56" cy="16" r="5.5" fill="#28c840"/>
   <text x="265" y="21" text-anchor="middle" class="mono" font-size="12" fill="{C["dim"]}">{TITLE_BAR}</text>
   <g class="mono">
     {"".join(lines)}
-    <g class="l" style="animation-delay:4.4s"><text x="22" y="258"><tspan fill="{C["neon"]}">idep@informatica</tspan><tspan fill="{C["dim"]}">:~$</tspan></text>
-    <rect x="{22 + 19 * 9 + 6}" y="244" width="9" height="18" fill="{C["neon"]}" class="cursor"/></g>
+    <g class="l" style="animation-delay:{0.4 + 0.5 * len(TERM):.1f}s"><text x="22" y="264"><tspan fill="{C["neon"]}">idep@informatica</tspan><tspan fill="{C["dim"]}">:~$</tspan></text>
+    <rect x="{22 + 19 * 9 + 6}" y="250" width="9" height="18" fill="{C["neon"]}" class="cursor"/></g>
   </g>
 </g>
 <text x="52" y="372" font-family="Roboto,sans-serif" font-weight="700" font-size="15" letter-spacing=".6" fill="{C["white"]}" opacity=".9">{FOOT_L}</text>
